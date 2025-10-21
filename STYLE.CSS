@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8f0;
+  color: #000000;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 10px 40px;
+  height: 44px;
+}
+
+.logo {
+  width: 60px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Hero */
+.hero {
+  background-image: url(assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+
+.hero h1 span {
+  color: #ef904c;
+  border: black;
+  
+}
+
+.hero p { 
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ffe066;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* Menu */
+.menu-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: black ;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+/* About */
+.about, .contact {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff1e6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ff6347;
+  color: white;
+}
+
+body a {
+ background-color: black;
+  text-decoration: none;
+}
+
+h2 {
+  color: #f9300c;
+}
+
+.hero h1 {
+  color: #000000;
+  font-size: 48px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 30px;
+  padding: 5px 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background: black 
+  padding: 10px;
+  width: 180px;
+  font-size: 16px;
+}
+
+.search-box button {
+  background: #007bff;
+  border: none;
+  outline: none;
+  color: #302d2d;
+  padding: 10px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-box button:hover {
+  background: #0056b3;
+}
+
+.search-box:hover {
+  transform: scale(1.05);
+}
+/* Card hover effect */
+.menu-container .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-container .card:hover {
+  transform: translateY(-10px) scale(1.05); /* Thoda upar aur zoom effect */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
